@@ -4,7 +4,7 @@ import Image from "next/image";
 export  const Search = () => {
 
 return (
-     <div className=" bg-gray-50 p-[1.5rem]  rounded-xl flex flex-row  items-center   gap-3">
+     <div className=" bg-gray-50 p-[0.8rem] xl:p-[1.5rem]  rounded-xl flex flex-row  items-center  gap-3">
     
             <div className="relative flex-grow">
               <input type="text" placeholder="ciy" className="bg-white border border-[#9CA3AF] rounded-md p-2 focus:outline-none w-full px-[40px]" >
@@ -18,7 +18,7 @@ return (
         />
     
             </div>
-            <div className="flex justify-center rounded-md bg-blue-500 w-[35px] h-[40px] ml[20px] ">
+            <div className="flex justify-center rounded-md bg-blue-500 w-[35px] h-[40px]  ">
             <Image
                 src="map-pin.svg"
                 alt="Picture of the author"

@@ -24,8 +24,8 @@ import Image from "next/image"
   
         <CardContent className="flex items-center justify-between">
             <div>
-                <div className="text-6xl font-bold">18°c</div>
-                <div className="text-lg text-center">Cloudy</div>
+                <div className="xl:text-6xl text-3xl  font-bold">18°c</div>
+                <div className="xl:text-lg  text-ms text-center">Cloudy</div>
             </div>
           <div className="text-lg">☁️</div>
         </CardContent>
